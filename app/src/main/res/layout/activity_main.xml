@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fino.calculatorsecond.MainActivity"
+    android:background="@color/dark">
+
+
+
+    <EditText
+        android:textColor="@color/jlib_white"
+        android:inputType="textNoSuggestions"
+        android:maxLength="10"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="bottom|right"
+        android:text="0.0" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_sin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="sin" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_cos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="cos" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_tan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="tan" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_ac"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ac" />
+
+        <Button
+            android:id="@+id/scientific_per"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="%" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="--" />
+
+        <Button
+            android:background="@drawable/my_selector2"
+            android:id="@+id/scientific_ince"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_ln"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ln" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_lg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="lg" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_factorial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="!" />
+
+        <Button
+            android:background="@drawable/my_selector"
+
+            android:id="@+id/scientific_bt7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9" />
+
+        <Button
+            android:background="@drawable/my_selector2"
+            android:id="@+id/scientific_minu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scientific_special1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="1/x" />
+
+        <Button
+            android:id="@+id/scientific_special2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="|x|" />
+
+        <Button
+            android:id="@+id/scientific_special3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="x²" />
+
+        <Button
+            android:id="@+id/scientific_bt4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/scientific_bt5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/scientific_bt6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/scientific_mul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector2"
+            android:text="x" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scientific_special4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector"
+            android:text="e" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_special5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="e^x" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_special6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="y^x" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/scientific_div"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector2"
+            android:text="÷" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_special7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="³√" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_special8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="√" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_special9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="π" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_spot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="." />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bt0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Button
+            android:background="@drawable/my_selector"
+            android:id="@+id/scientific_bracket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="()" />
+
+        <Button
+            android:background="@drawable/my_selector2"
+            android:id="@+id/scientific_eq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="=" />
+
+    </LinearLayout>
+</LinearLayout>
